@@ -1,0 +1,86 @@
+@mixin media($type) {
+  
+  @if $type == mobilePortrait {
+
+      @media only screen and (max-width:479px) {
+          @content;
+      }
+
+  }
+  
+  @if $type == mobileLandscape {
+
+      @media only screen and (min-width:480px) and (max-width:767px) {
+          @content;
+      }
+
+  }
+  
+   @if $type == mobileAll {
+
+      @media only screen and (max-width:767px) {
+          @content;
+      }
+
+  }
+  
+   @if $type == tabletPortrait {
+
+      @media only screen and (min-width:768px) {
+          @content;
+      }
+
+  }
+  
+  @if $type == tabletPortraitOnly {
+
+      @media only screen and (min-width:768px) and (max-width:991px) {
+          @content;
+      }
+
+  }
+  
+   @if $type == tabletLandscape {
+
+      @media only screen and (min-width:992px) and (max-width:1349px) {
+          @content;
+      }
+
+  }
+  
+   @if $type == tabletLandscapeUp {
+
+      @media only screen and (min-width:992px) {
+          @content;
+      }
+
+  }
+  
+   @if $type == tabletOnly {
+
+      @media only screen and (min-width:768px) and (max-width: 1349px) {
+          @content;
+      }
+
+  }
+  
+   @if $type == laptop {
+
+      @media only screen and (min-width:1350px) /*and (max-width:1599px)*/ {
+          @content;
+      }
+
+  }
+  
+   @if $type == desktop {
+
+      @media only screen and (min-width:1600px) {
+          @content;
+      }
+
+  }
+
+
+
+
+}

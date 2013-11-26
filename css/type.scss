@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'sans';
+    src: url('../f/circularstd-medium.eot');
+    src: url('../f/circularstd-medium.eot') format('embedded-opentype'),
+         url('../f/circularstd-medium.woff') format('woff'),
+         url('../f/circularstd-medium.ttf') format('truetype'),
+         url('../f/circularstd-medium.svg#CircularStdMediumRegular') format('svg');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'sans';
+    src: url('../f/circularstd-book.eot');
+    src: url('../f/circularstd-book.eot') format('embedded-opentype'),
+         url('../f/circularstd-book.woff') format('woff'),
+         url('../f/circularstd-book.ttf') format('truetype'),
+         url('../f/circularstd-book.svg#CircularStdBookRegular') format('svg');
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'sans';
+    src: url('../f/circularstd-bold.eot');
+    src: url('../f/circularstd-bold.eot') format('embedded-opentype'),
+         url('../f/circularstd-bold.woff') format('woff'),
+         url('../f/circularstd-bold.ttf') format('truetype'),
+         url('../f/circularstd-bold.svg#CircularStdBoldRegular') format('svg');
+    font-style: normal;
+    font-weight: 700;
+}
